@@ -23,7 +23,7 @@
       "name": "Store Member Data"
     },
     {
-      "title": "Твой ранг🔰",
+      "title": "Your Rank🔰",
       "author": "",
       "color": "lime",
       "url": "",
@@ -47,7 +47,7 @@
     {
       "storage": "1",
       "varName": "emb",
-      "fieldName": "Твой ранг:",
+      "fieldName": "Your rank:",
       "message": "`${tempVars(\"memberrank\")}`",
       "inline": "0",
       "name": "Add Embed Field"
