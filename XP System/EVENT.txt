@@ -81,7 +81,7 @@
     {
       "storage": "1",
       "varName": "message",
-      "message": "${tempVars(\"member\")} поднял свой лвл к `${tempVars(\"userrank\")}`!",
+      "message": "${tempVars(\"member\")} ranked up to `${tempVars(\"userrank\")}`!",
       "name": "Set Embed Description"
     },
     {
