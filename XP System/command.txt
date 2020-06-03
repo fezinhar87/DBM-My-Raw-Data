@@ -1,0 +1,77 @@
+{
+  "name": "rank",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "POscK",
+  "actions": [
+    {
+      "member": "1",
+      "varName": "",
+      "dataName": "exp",
+      "defaultVal": "0",
+      "storage": "1",
+      "varName2": "memberexp",
+      "name": "Store Member Data"
+    },
+    {
+      "member": "1",
+      "varName": "",
+      "dataName": "rank",
+      "defaultVal": "1",
+      "storage": "1",
+      "varName2": "memberrank",
+      "name": "Store Member Data"
+    },
+    {
+      "title": "Твой ранг🔰",
+      "author": "",
+      "color": "lime",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "emb",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "emb",
+      "fieldName": "Твой ранг:",
+      "message": "`${tempVars(\"memberrank\")}`",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "emb",
+      "fieldName": "XP:",
+      "message": "`${tempVars(\"memberexp\")}`",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "emb",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "messageContent": "",
+      "name": "Send Embed Message"
+    }
+  ],
+  "comType": "0"
+}
