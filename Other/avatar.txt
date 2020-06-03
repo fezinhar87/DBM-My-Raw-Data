@@ -1,0 +1,77 @@
+{
+  "name": "avatar",
+  "permissions": "NONE",
+  "restriction": "1",
+  "actions": [
+    {
+      "member": "0",
+      "varName": "",
+      "info": "7",
+      "storage": "1",
+      "varName2": "h-role",
+      "name": "Store Member Info"
+    },
+    {
+      "role": "3",
+      "varName": "h-role",
+      "info": "3",
+      "storage": "1",
+      "varName2": "role-color",
+      "name": "Store Role Info"
+    },
+    {
+      "member": "0",
+      "varName": "",
+      "info": "12",
+      "storage": "1",
+      "varName2": "123",
+      "name": "Store Member Info"
+    },
+    {
+      "member": "0",
+      "varName": "",
+      "info": "18",
+      "storage": "1",
+      "varName2": "tag",
+      "name": "Store Member Info"
+    },
+    {
+      "title": "${tempVars(\"tag\")}",
+      "author": "",
+      "color": "${tempVars(\"role-color\")}",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "${tempVars(\"123\")}",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "test",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "test",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "messageContent": "",
+      "name": "Send Embed Message"
+    }
+  ],
+  "_id": "FXooN",
+  "_aliases": [
+    "ava"
+  ]
+}
